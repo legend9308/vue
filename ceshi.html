@@ -5,6 +5,17 @@
 	<title>Document</title>
 </head>
 <body>
+	<div id="app">
+		{{wow}}
+	</div>
 	<script src='vue.js'></script>
+	<script>
+		var vm=new Vue({
+			el:'#app',
+			data:{
+				wow:'123'
+			}
+		})
+	</script>
 </body>
 </html>
